@@ -2,6 +2,7 @@ package com.example.springBoot.mappers;
 
 import com.example.springBoot.dto.TaskDTO;
 import com.example.springBoot.entities.Task;
+import jakarta.persistence.metamodel.IdentifiableType;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
